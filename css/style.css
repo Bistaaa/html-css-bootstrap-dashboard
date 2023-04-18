@@ -2,7 +2,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
+.white{
+    color: white;
+}
 
 
 /* UPPER */
@@ -39,6 +41,7 @@
 /* LOWER */
 
 #lower{
+    background-color: aqua;
     height: calc(100% - 9vh);
     width: 100%;
 }
@@ -49,9 +52,12 @@
 /* Side */
 
 #side{
-    background-color: rgba(255,255,255,255);
+    background-color: rgba(13,37,58,255);
     width: 150px;
-    height: calc(100% - 9vh);
+    height: 100%;
+    position: fixed;
+    top: 9vh;
+    left: 0;
 }
 
 
@@ -60,10 +66,23 @@
 
 
 
-/* Main */
+/************* Main Screen ************/
 
-main{
+#main_screen{
     width: calc(100% - 150px);
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 9vh;
+}
+
+
+
+
+/* header */
+
+header{
+    background-color: rgba(27,114,232,255);
 }
 
 
@@ -76,13 +95,12 @@ main{
 
 
 
-
-
-
-
-
-
-
+/* debug */
+[class*="col-"]{
+    background-color: blueviolet;
+    border: 1px solid black;
+    height: 50px;
+}
 
 
 
