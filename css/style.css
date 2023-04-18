@@ -1,0 +1,95 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* UPPER */
+
+#upper{
+    height: 9vh;
+    width: 100%;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* LOWER */
+
+#lower{
+    height: calc(100% - 9vh);
+    width: 100%;
+}
+
+
+
+
+/* Side */
+
+#side{
+    background-color: rgba(255,255,255,255);
+    width: 150px;
+    height: calc(100% - 9vh);
+}
+
+
+
+
+
+
+
+/* Main */
+
+main{
+    width: calc(100% - 150px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
