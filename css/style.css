@@ -6,6 +6,9 @@
     color: white;
 }
 
+.clear_margin{
+    margin: 0;
+}
 
 /* UPPER */
 
@@ -83,7 +86,47 @@
 
 header{
     background-color: rgba(27,114,232,255);
+    height: 125px;
 }
+
+#header_left_container{
+    padding-left: 10px;
+}
+
+.rounded_header_p{
+   padding: 3px 8px;
+   font-size: 14px; 
+   background-color: rgba( 0, 0, 0, 0.2);
+   border-radius: 15px;
+   margin: 0 4px;
+}
+
+h1{
+    font-weight: 400;
+}
+
+#online_students_number{
+    font-size: 30px;
+}
+
+#plus{
+    margin: 0 30px 0 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -96,11 +139,11 @@ header{
 
 
 /* debug */
-[class*="col-"]{
+/* [class*="col-"]{
     background-color: blueviolet;
     border: 1px solid black;
     height: 50px;
-}
+} */
 
 
 

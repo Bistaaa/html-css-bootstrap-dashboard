@@ -29,15 +29,29 @@
 
             <!-- Main Screen -->
             <div id="main_screen">
-                <header class="d-flex flex-row flex-wrap white">
-                    <div class="col-lg-6 col-md-4 col-sm-12">
 
+                <!-- header -->
+                <header class="d-flex flex-row flex-wrap white align-items-center">
+                    <div class="col-lg-6 col-md-4 col-sm-12 d-flex flex-column" id="header_left_container">
+                        <div class="d-flex flex-row align-items-center" id="boolean-container">
+                            <h1>Boolean</h1>
+                            <p class="rounded_header_p clear_margin" id="piano_blaze">Piano blaze</p>
+                        </div>
+                        <div class="d-flex flex-row align-items-center" id="app_container">
+                            <p class="rounded_header_p clear_margin">3 app</p>
+                            <i class="fa-solid fa-angles-right white"></i>
+                            <p class="rounded_header_p clear_margin">Boolean mobile app</p>
+                            <p class="rounded_header_p clear_margin">Boolean web app</p>
+                            <p class="rounded_header_p clear_margin">Boolean blog app</p>
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-12">
-                        
+                    <div class="col-lg-3 col-md-4 col-sm-12 d-flex flex-column" id="online_student_container">
+                        <p class="clear_margin" id="online_students">Studenti online negli ultimi 30 minuti</p>
+                        <p class="clear_margin" id="online_students_number">125</p>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-sm-12">
-
+                    <div class="col-lg-3 col-md-4 col-sm-12 d-flex flex-row align-items-center justify-content-end">
+                        <p class="clear_margin">Nuovo studente</p>
+                        <i class="fa-solid fa-plus clear_margin" id="plus"></i>
                     </div>
                 </header>
 
