@@ -57,15 +57,20 @@
 #side{
     background-color: rgba(13,37,58,255);
     width: 150px;
-    height: 100%;
+    height: calc(100% - 9vh);
     position: fixed;
     top: 9vh;
     left: 0;
 }
 
+.side_text{
+    margin: 10px 0;
 
+}
 
-
+#side [class*="fa-solid"]{
+    margin-right: 20px;
+}
 
 
 
